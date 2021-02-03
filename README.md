@@ -7,7 +7,7 @@ The Ethereum Proof-of-Authority protocol is called Clique and is well described 
 
 Proof-of-Authority is a near perfect fit for private networks but not at all suited for public networks where the trust should be as distributed as possible.
 
-3
+
 Image(filename = PATH + "POA.png", width=500, height=300)
 
 How to Start a POA Network
