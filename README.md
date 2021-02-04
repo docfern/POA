@@ -12,8 +12,8 @@ Proof-of-Authority is a near perfect fit for private networks but not at all sui
 
 How to Start a POA Network
 Generate two new nodes as pre-approved sealer addresses by creating accounts with a separate datadir using geth.
-./geth --datadir node1 account new
-./geth --datadir node2 account new
+- ./geth --datadir node1 account new
+- ./geth --datadir node2 account new
 
 Generate Genesis Block
 Run puppeth and follow the wizard
