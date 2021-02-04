@@ -8,7 +8,6 @@ The Ethereum Proof-of-Authority protocol is called Clique and is well described 
 Proof-of-Authority is a near perfect fit for private networks but not at all suited for public networks where the trust should be as distributed as possible.
 
 
-Image(filename = PATH + "POA.png", width=500, height=300)
 ![POA](https://github.com/docfern/POA/blob/main/pictures/POA.png)
 
 How to Start a POA Network
@@ -32,23 +31,27 @@ Run the nodes in separate terminal windows with the commands:
 ./geth --datadir node1 --unlock "SEALER_ONE_ADDRESS" --mine --rpc --allow-insecure-unlock
 ./geth --datadir node2 --unlock "SEALER_TWO_ADDRESS" --mine --port 30304 --bootnodes "enode://SEALER_ONE_ENODE_ADDRESS@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
 MyCrypto for Testing
-Image(filename = PATH + "change_network.jpg", width=500, height=500)
+![Change Network](https://github.com/docfern/POA/blob/main/pictures/change_network.jpg)
 
 Open the MyCrypto app
 Click Change Network at the bottom left
 Click "Add Custom Node"
 Fill in the blanks
 Choose Custom on the Network
-Image(filename = PATH + "setup_custom.jpg", width=500, height=500)
+![Custom](https://github.com/docfern/POA/blob/main/pictures/setup_custom.jpg)
 
 clicking
 Image(filename = PATH + "before_clicking.jpg", width=500, height=500)
+![Before Clicking](https://github.com/docfern/POA/blob/main/pictures/before_clicking.jpg)
+
 
 Image(filename = PATH + "after_clicking.jpg", width=500, height=500)
-Image(filename = PATH + "after_clicking.jpg", width=500, height=500)
+![After Clicking](https://github.com/docfern/POA/blob/main/pictures/after_clicking.jpg)
+
 
 Image(filename = PATH + "successful.jpg", width=500, height=500)
-Image(filename = PATH + "successful.jpg", width=500, height=500)
+![Successful](https://github.com/docfern/POA/blob/main/pictures/successful.jpg)
 
 jpg
 Image(filename = PATH + "winston.jpg", width=500, height=500)
+![Winston Successful](https://github.com/docfern/POA/blob/main/pictures/winston.jpg)
