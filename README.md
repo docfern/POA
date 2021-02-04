@@ -1,16 +1,16 @@
 # POA
-PROOF OF AUTHORITY
-Why POA
+### PROOF OF AUTHORITY<br>
+#### Why POA<br>
 Proof-of-Authority is a newer concept in the blockchain world where you have a number of pre-approved authority nodes called sealers. Any new node to add has to be voted on by the currently approved set of authority nodes, this provides a full control over which nodes can seal blocks (mine) on the private network.
-
+<br>
 The Ethereum Proof-of-Authority protocol is called Clique and is well described in the Clique Github issue. Ethereum currently uses this algorithm for the Kovan test network.
-
+<br>
 Proof-of-Authority is a near perfect fit for private networks but not at all suited for public networks where the trust should be as distributed as possible.
-
+<br>
 
 ![POA](https://github.com/docfern/POA/blob/main/pictures/POA.png)
-
-How to Start a POA Network
+<br>
+#### How to Start a POA Network<br>
 Generate two new nodes as pre-approved sealer addresses by creating accounts with a separate datadir using geth.
 - ./geth --datadir node1 account new
 - ./geth --datadir node2 account new
@@ -30,7 +30,8 @@ Run the nodes in separate terminal windows with the commands:<br>
 
 - ./geth --datadir node1 --unlock "SEALER_ONE_ADDRESS" --mine --rpc --allow-insecure-unlock
 - ./geth --datadir node2 --unlock "SEALER_TWO_ADDRESS" --mine --port 30304 --bootnodes "enode://SEALER_ONE_ENODE_ADDRESS@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
-MyCrypto for Testing<br>
+<br>
+#### MyCrypto for Testing<br>
 ![Change Network](https://github.com/docfern/POA/blob/main/pictures/change_network.jpg)
 
 Open the MyCrypto app<br>
