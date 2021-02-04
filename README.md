@@ -18,26 +18,26 @@ Generate two new nodes as pre-approved sealer addresses by creating accounts wit
 Generate Genesis Block<br>
 Run puppeth and follow the wizard<br>
 Choose Clique (Proof of Authority) consensus algorithm<br>
-Choose a block time
-Paste both account addresses from the first step one at a time into the list of accounts to seal.
-Paste them again in the list of accounts to pre-fund.
-You can choose no for pre-funding the pre-compiled accounts.
-Complete the rest of the prompts, and when you are back at the main menu, choose the "Manage existing genesis" option.
-Export genesis configurations. This will fail to create two of the files, but you only need networkname.json.
-With the genesis block creation completed, we will now initialize the nodes with the genesis' json file.
-Initialize Nodes
-Run the nodes in separate terminal windows with the commands:
+Choose a block time<br>
+Paste both account addresses from the first step one at a time into the list of accounts to seal.<br>
+Paste them again in the list of accounts to pre-fund.<br>
+You can choose no for pre-funding the pre-compiled accounts.<br>
+Complete the rest of the prompts, and when you are back at the main menu, choose the "Manage existing genesis" option.<br>
+Export genesis configurations. This will fail to create two of the files, but you only need networkname.json.<br>
+With the genesis block creation completed, we will now initialize the nodes with the genesis' json file.<br>
+Initialize Nodes<br>
+Run the nodes in separate terminal windows with the commands:<br>
 
-./geth --datadir node1 --unlock "SEALER_ONE_ADDRESS" --mine --rpc --allow-insecure-unlock
-./geth --datadir node2 --unlock "SEALER_TWO_ADDRESS" --mine --port 30304 --bootnodes "enode://SEALER_ONE_ENODE_ADDRESS@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
-MyCrypto for Testing
+- ./geth --datadir node1 --unlock "SEALER_ONE_ADDRESS" --mine --rpc --allow-insecure-unlock
+- ./geth --datadir node2 --unlock "SEALER_TWO_ADDRESS" --mine --port 30304 --bootnodes "enode://SEALER_ONE_ENODE_ADDRESS@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
+MyCrypto for Testing<br>
 ![Change Network](https://github.com/docfern/POA/blob/main/pictures/change_network.jpg)
 
-Open the MyCrypto app
-Click Change Network at the bottom left
-Click "Add Custom Node"
-Fill in the blanks
-Choose Custom on the Network
+Open the MyCrypto app<br>
+Click Change Network at the bottom left<br>
+Click "Add Custom Node"<br>
+Fill in the blanks<br>
+Choose Custom on the Network<br>
 ![Custom](https://github.com/docfern/POA/blob/main/pictures/setup_custom.jpg)
 
 ![Before Clicking](https://github.com/docfern/POA/blob/main/pictures/before_clicking.jpg)
