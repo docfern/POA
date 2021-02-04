@@ -15,9 +15,9 @@ Generate two new nodes as pre-approved sealer addresses by creating accounts wit
 - ./geth --datadir node1 account new
 - ./geth --datadir node2 account new
 
-Generate Genesis Block
-Run puppeth and follow the wizard
-Choose Clique (Proof of Authority) consensus algorithm
+Generate Genesis Block<br>
+Run puppeth and follow the wizard<br>
+Choose Clique (Proof of Authority) consensus algorithm<br>
 Choose a block time
 Paste both account addresses from the first step one at a time into the list of accounts to seal.
 Paste them again in the list of accounts to pre-fund.
