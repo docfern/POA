@@ -9,6 +9,7 @@ Proof-of-Authority is a near perfect fit for private networks but not at all sui
 
 
 Image(filename = PATH + "POA.png", width=500, height=300)
+![POA](https://github.com/docfern/POA/blob/main/pictures/POA.png)
 
 How to Start a POA Network
 Generate two new nodes as pre-approved sealer addresses by creating accounts with a separate datadir using geth.
