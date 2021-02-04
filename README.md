@@ -40,18 +40,12 @@ Fill in the blanks
 Choose Custom on the Network
 ![Custom](https://github.com/docfern/POA/blob/main/pictures/setup_custom.jpg)
 
-clicking
-Image(filename = PATH + "before_clicking.jpg", width=500, height=500)
 ![Before Clicking](https://github.com/docfern/POA/blob/main/pictures/before_clicking.jpg)
 
 
-Image(filename = PATH + "after_clicking.jpg", width=500, height=500)
 ![After Clicking](https://github.com/docfern/POA/blob/main/pictures/after_clicking.jpg)
 
 
-Image(filename = PATH + "successful.jpg", width=500, height=500)
 ![Successful](https://github.com/docfern/POA/blob/main/pictures/successful.jpg)
 
-jpg
-Image(filename = PATH + "winston.jpg", width=500, height=500)
 ![Winston Successful](https://github.com/docfern/POA/blob/main/pictures/winston.jpg)
